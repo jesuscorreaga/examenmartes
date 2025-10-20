@@ -49,7 +49,7 @@ public class primos1 {
       }
 
       System.out.println("Factorial de " + ultimosDos + " = " + expresion);
-      System.out.println("Resultado: " + factorial);
+      
 
     } else {
       System.out.println(ultimosDos + " no es primo.");

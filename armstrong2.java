@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class armstrong2 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int num, original, suma = 0, digito, cantidad = 0;
+    int num = 0, original = 0, suma = 0, digito = 0, cantidad = 0;
 
     System.out.println(
         "Ingrese un número de 3 o 4 cifras. El programa determinará si es un número de Armstrong.");
