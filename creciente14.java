@@ -19,6 +19,7 @@ public class creciente14 {
 
       if (num1 < num2 && num2 < num3) {
         System.out.println("Correcto, el programa finalizo");
+        break;
       } else {
         System.out.println("No estan en orden creciente. Vuelve a ingresar los númeroes");
       }

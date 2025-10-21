@@ -1,10 +1,10 @@
 public class Multiplos513 {
   public static void main(String[] args) {
     // Recorrer los números del 10 al 50
-    for (int i = 10; i <= 50; i++) {
+    for (int i = 10; i <= 50; i++) { 
 
       // Verificar si es múltiplo de 5
-      if (i % 5 == 0) {
+      if ( i% 5 == 0) { 
 
         long factorial = 1;     // Reiniciamos el factorial
         String proceso = "";    // Reiniciamos el texto de proceso

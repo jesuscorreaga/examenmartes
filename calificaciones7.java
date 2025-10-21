@@ -7,12 +7,12 @@ public class calificaciones7 {
     double nota = 0, minima = 999, totalN = 0, promedio = 0;
 
     for (int i = 1; i <= 10; i++) {
-      System.out.println("Ingrese la nota del estudiante # " + i);
-      nota = sc.nextInt();
-      totalN += nota;
+      System.out.println("Ingrese la nota del estudiante # " + i); 
+      nota = sc.nextInt(); 
+      totalN += nota;  
       promedio = (totalN/10);
-      if (nota < minima){
-        minima = nota;
+      if (nota < minima){ 
+        minima = nota; 
       }
 
     }

@@ -19,9 +19,9 @@ public class armstrong2 {
 
     // Contar cuántos dígitos tiene el número
     int temp = num;
-    while (temp > 0) {
-      cantidad++;
-      temp /= 10;
+    while (temp > 0) {  
+      cantidad++; 
+      temp /= 10; 
     }
 
     // Calcular la suma de las potencias de los dígitos
@@ -32,7 +32,7 @@ public class armstrong2 {
       // Calcular digito^cantidad manualmente
       int potencia = 1;
       for (int i = 1; i <= cantidad; i++) {
-        potencia *= digito;
+        potencia *= digito; 
       }
 
       suma += potencia;

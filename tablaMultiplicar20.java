@@ -7,9 +7,9 @@ public class tablaMultiplicar20 {
 
     // Solicitar los valores al usuario
     System.out.println("Ingrese el número para generar su tabla de multiplicar:");
-    numero = sc.nextInt();
+    numero = sc.nextInt(); 
 
-    System.out.println("Ingrese el valor límite:");
+    System.out.println("Ingrese el valor límite:"); 
     limite = sc.nextInt();
 
     // Mostrar la tabla

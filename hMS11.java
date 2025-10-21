@@ -15,8 +15,8 @@ public class hMS11 {
     } else {
       horas = n / 3600;
       n = n % 3600;
-      minutos = n / 60;
-      segundos = n % 60;
+      minutos = n / 60;  
+      segundos = n % 60; 
     }
     
     System.out.println("Hay: " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos");

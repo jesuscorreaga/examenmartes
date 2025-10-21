@@ -24,7 +24,7 @@ public class sumaParImpar17 {
     if (sumaPares > sumaImpar) {
       System.out.println("La suma de los pares es mayor que los impares.");
     } else if (sumaImpar > sumaPares) {
-      System.out.println("La suma de los impares es mayor que los impares.");
+      System.out.println("La suma de los impares es mayor que los pares.");
     } else {
       System.out.println("Son iguales.");
     }

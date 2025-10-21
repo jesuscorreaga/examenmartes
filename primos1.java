@@ -16,17 +16,17 @@ public class primos1 {
     }
 
     // Obtener los dos últimos dígitos
-    ultimosDos = num % 100;
+    ultimosDos = num % 100; 
     System.out.println("Los últimos dos números son: " + ultimosDos);
 
     // Verificar si es primo
     boolean esPrimo = true;
 
-    if (ultimosDos < 2) {
+    if (ultimosDos < 2) { 
       esPrimo = false;
     } else {
       for (int i = 2; i * i <= ultimosDos; i++) {
-        if (ultimosDos % i == 0) {
+        if (ultimosDos % i == 0) { 
           esPrimo = false;
           break;
         }
@@ -42,7 +42,7 @@ public class primos1 {
 
       for (int i = ultimosDos; i >= 1; i--) {
         factorial *= i;
-        expresion += i;
+        expresion += i; 
         if (i > 1) {
           expresion += "*";
         }

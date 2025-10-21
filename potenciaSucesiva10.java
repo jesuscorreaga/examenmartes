@@ -17,7 +17,7 @@ public class potenciaSucesiva10 {
       resultado *= base;
       System.out.print(base);
       if(i<potencia){
-        System.out.print(" ^ " );
+        System.out.print(" * " );
       } else {
         System.out.print(" = " + resultado);
       }

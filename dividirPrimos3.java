@@ -18,8 +18,8 @@ public class dividirPrimos3 {
     // Descomposición en factores primos
     for (int i = 2; i <= num; i++) {
       while (num % i == 0) {
-        resultado += i + "*";
-        num /= i;
+        resultado += i + "*"; 
+        num /= i; 
       }
     }
     // Agregar 1 al final

@@ -15,20 +15,20 @@ public class maxMin6 {
 
     // Ingrese el primer número
     System.out.println("Ingrese el número 1: ");
-    num = sc.nextInt();
-    max = num;
-    min = num;
+    num = sc.nextInt(); 
+    max = num;  
+    min = num; 
 
     for (int i = 2; i <= n; i++){
-      System.out.println("Ingrese el número " + i + " :");
+      System.out.println("Ingrese el número " + i + " :"); 
       num = sc.nextInt();
 
-      if(num > max){
+      if(num > max){ 
         max = num;
       }
 
       if(num < min){
-        min = num;
+        min = num; 
       }
     }
 

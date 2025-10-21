@@ -11,7 +11,7 @@ public class perfecto18 {
 
     // Calcular la suma de divisores propios
     for (int i = 1; i < num; i++) { // hasta num - 1
-      if (num % i == 0) {           // si es divisor
+      if (num % i == 0) {           // si es divisor 
         sumaDivisores += i;
       }
     }
@@ -26,6 +26,6 @@ public class perfecto18 {
       System.out.println(num + " no es un número perfecto ");
     }
 
-    sc.close();
+    
   }
 }
